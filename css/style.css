@@ -12,7 +12,7 @@
 .container {
     height: 400px;
     width: 300px;
-    background-color: grey;
+    background-color: rgb(203, 202, 202);
     border-radius: 15px;
     margin: 10px;
 }
@@ -31,11 +31,15 @@
     align-items: center;
 }
 
+.col-direction {
+    flex-direction: column;
+}
+
 /* FINE CLASSI DI UTILITY */
 
 /* CSS TAG SECTION */
 
-/* SECTION 1 */
+/* SEZIONE 1 */
 
 .sezione1 {
     height: 20%;
@@ -47,7 +51,7 @@
     font-family: font-family: 'Seven Segment', sans-serif;
 }
 
-/* SECTION 2 */
+/* SEZIONE 2 */
 
 .sezione2 {
     height: 20%;
@@ -63,20 +67,46 @@
     font-family: "Roboto Mono", monospace;
 }
 
-/* SECTION 3 */
+/* SEZIONE 3 */
 
 .sezione3 {
     height: 60%;
     display: flex;
+    padding: 20px;
+}
+
+.square {
+    height: 57px;
+    width: 57px;
+    background-color: rgb(135, 133, 133);
+    border-radius: 10px;
+    margin: 5px;
+    border:  3px solid black ;
+    border-top: 0;
+    border-right: 0;
+}
+
+.squarearancio {
+    height: 30px;
+    width: 50px;
+    background-color: rgb(228, 140, 7);
+    border-radius: 10px;
+    margin: 5px;
+    border:  3px solid black ;  
+    border-top: 0;
+    border-right: 0;  
+}
+
+.squareazzurro {
+    height: 30px;
+    width: 50px;
+    background-color: rgb(7, 184, 228);
+    border-radius: 10px;
+    margin: 5px;
+    border:  3px solid black ;
+    border-top: 0;
+    border-right: 0;
 }
 
 
 /* FINE CSS TAG SECTION */
-
-
-
-
-
-
-
-
