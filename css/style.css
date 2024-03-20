@@ -84,6 +84,8 @@
     border:  3px solid black ;
     border-top: 0;
     border-right: 0;
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .squarearancio {
@@ -94,7 +96,9 @@
     margin: 5px;
     border:  3px solid black ;  
     border-top: 0;
-    border-right: 0;  
+    border-right: 0; 
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .squareazzurro {
@@ -106,6 +110,35 @@
     border:  3px solid black ;
     border-top: 0;
     border-right: 0;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.supersquare {
+    height: 40px;
+    width: 124px;
+    background-color: rgb(135, 133, 133);
+    border-radius: 10px;
+    margin: 5px;
+    border:  3px solid black ;
+    border-top: 0;
+    border-right: 0;
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#arancio {
+    height: 40px;
+    width: 57px;
+    background-color: rgb(250, 135, 3);
+    border-radius: 10px;
+    margin: 5px;
+    border:  3px solid black ;
+    border-top: 0;
+    border-right: 0;
+    font-size: 150%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
