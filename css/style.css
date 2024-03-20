@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
+.dimensioni {
+    width: 100%;
+    height: 600px;
+}
+
+.container {
+    height: 400px;
+    width: 300px;
+    background-color: grey;
+    border-radius: 15px;
+    margin: 10px;
+}
+
 /* CLASSI DI UTILITY */
 
 .d-flex{
     display: flex;
-    width: 100%;
-    height: 600px;
 }
 
 .justify-center {
@@ -22,13 +33,50 @@
 
 /* FINE CLASSI DI UTILITY */
 
-.square {
-    height: 400px;
-    width: 300px;
-    background-color: grey;
-    border-radius: 15px;
-    margin: 10px;
+/* CSS TAG SECTION */
+
+/* SECTION 1 */
+
+.sezione1 {
+    height: 20%;
+    display: flex;
 }
+
+#testo1 {
+    font-size: 200%;
+    font-family: font-family: 'Seven Segment', sans-serif;
+}
+
+/* SECTION 2 */
+
+.sezione2 {
+    height: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#testo2 {
+    font-size: 300%;
+    color: aquamarine;
+    margin: 15px;
+    font-family: "Roboto Mono", monospace;
+}
+
+/* SECTION 3 */
+
+.sezione3 {
+    height: 60%;
+    display: flex;
+}
+
+
+/* FINE CSS TAG SECTION */
+
+
+
+
+
 
 
 
